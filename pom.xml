@@ -5,11 +5,11 @@
 
     <groupId>com.github.steveice10</groupId>
     <artifactId>classicprotocollib</artifactId>
-    <version>0.30-4-SNAPSHOT</version>
+    <version>0.30-5-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ClassicProtocolLib</name>
-    <description>A library for communicating with a Minecraft Classic client or server.</description>
+    <description>A library for communicating with a Minecraft Classic ClassiCube client or server.</description>
     <url>http://github.com/Steveice10/ClassicProtocolLib/</url>
 
     <scm>
@@ -20,7 +20,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
         <argLine></argLine>
     </properties>
 
@@ -54,10 +54,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.steveice10</groupId>
+            <groupId>com.github.GeyserMC</groupId>
             <artifactId>packetlib</artifactId>
             <version>1.2</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.52</version>
         </dependency>
     </dependencies>
 
