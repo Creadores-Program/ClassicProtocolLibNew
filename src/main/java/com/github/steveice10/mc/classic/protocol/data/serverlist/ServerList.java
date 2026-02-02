@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Contains methods for communicating with the Minecraft Classic server list.
+ * Contains methods for communicating with the ClassiCube server list.
  */
 public class ServerList {
     static {
