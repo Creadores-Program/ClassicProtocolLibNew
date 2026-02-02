@@ -11,12 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
-import java.net.CookieHandler;
-import java.net.CookieManager;
-import java.net.CookiePolicy;
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.URLEncoder;
+import java.net.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -108,7 +103,7 @@ public class ServerList {
      * @return The server's URL information.
      */
     public static ServerURLInfo getServerURLInfo(String url) {
-        String hash = serverUrl.substring(serverUrl.lastIndexOf("/") + 1);
+        String hash = url.substring(url.lastIndexOf("/") + 1);
         
         String response = fetchUrl(API_SERVERS, "", "GET");
         JSONObject root = JSON.parseObject(response);
