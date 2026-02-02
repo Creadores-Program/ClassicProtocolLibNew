@@ -10,6 +10,9 @@ import com.github.steveice10.packetlib.crypt.PacketEncryption;
 import com.github.steveice10.packetlib.packet.PacketHeader;
 import com.github.steveice10.packetlib.packet.PacketProtocol;
 
+/**
+ * Minecraft Classic/ClassiCube protocol.
+ */
 public class ClassicProtocol extends PacketProtocol {
 	private PacketHeader header = new ClassicPacketHeader();
 
