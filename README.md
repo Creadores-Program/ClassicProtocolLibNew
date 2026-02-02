@@ -1,5 +1,5 @@
 # ClassicProtocolLib
-ClassicProtocolLib is a simple library for communicating with a Minecraft Classic client/server. It aims to allow people to make custom bots, clients, or servers for Minecraft Classic/ClassiCube easily.
+ClassicProtocolLib is a simple library for communicating with a Minecraft Classic/ClassiCube client/server. It aims to allow people to make custom bots, clients, or servers for Minecraft Classic/ClassiCube easily.
 
 ## Example Code
 See [example/com/github/steveice10/mc/classic/protocol/test/MinecraftClassicProtocolTest.java](./example/com/github/steveice10/mc/classic/protocol/test/MinecraftClassicProtocolTest.java)
