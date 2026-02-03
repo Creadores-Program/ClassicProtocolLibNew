@@ -40,7 +40,22 @@ public class PlayerIds {
     public static final int BOTTOMRIGHT3 = 13;
 
     /**
-     * Player ID used to represent Announcement
+     * PlayerID used to represent LeftHotbar
+     */
+    public static final int LEFTHOTBAR = 45;
+
+    /**
+     * PlayerID used to represent RightHotbar
+     */
+    public static final int RIGHTHOTBAR = 54;
+
+    /**
+     * Player ID used to represent Announcement or BigAnnouncement in MessageTypesV2 Ext
      */
     public static final int ANNOUNCEMENT = 100;
+
+    /**
+     * Player ID used to represent SmallAnnouncement
+     */
+    public static final int SMALLANNOUNCEMENT = 200;
 }
